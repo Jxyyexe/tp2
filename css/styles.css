@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+html, body{
+height:100%;
+margin:0;
+padding:0;
+}
+
+h1 {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+
+
+nav {
+    display:inline-block;
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    overflow: hidden;
+    float:left;
+}
+
+
+nav a { 
+font-weight: bold;
+display: inline-block;
+text-decoration: none;
+color:white;
+margin-right: 10px;
+}
+
+nav a:hover {
+    color:blue;
+}
+
+.link-left {
+    float:left;
+    
+}
+
+.link-right {
+    float:right;
+}
+
+li {
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex:1;
+}
+
+p {
+    font-family:cursive;
+} 
+
+
+.main-text {
+    width: 70%;
+}
+
+main {
+    background-color: gainsboro;
+}
+
+
+
+.text-droite{
+display: flex;
+align-items: flex-start;
+padding-bottom:15px;
+}
+
+
+.fallout-page {
+    background-color:azure;
+    padding-left: 15px;
+    width: 40%;
+}
+
+
+.wow-page {
+    background-color:blueviolet;
+    padding-left: 15px;
+    width: 80%;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+figure {
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px;
+    width: fit-content;
+    float: left;
+   }
+
+.image-container img {
+    max-width:100%; 
+    margin: auto;
+    float:left;
+}
+
+.image-container {
+
+background-color: black;
+
+}
+
+.image-container p {
+    margin-top: 10px; 
+    font-size: 14px; 
+    color: darkslategray;
+    text-align: left;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top:auto;
+    
+}
+
+
+/* Style pour le KB2 pas vue en classe */
+
+.hover:hover {
+    color: blue; 
+}
+
+.lien-visiter a:visited {
+    color: purple; 
+}
+
+.lien-visiter a:link {
+    color: green; 
+}
+
+
+
+input:focus {
+    border-color: blue; 
+    background-color: lightyellow; 
+}
+
+button:focus {
+    outline: 3px solid red; 
+}
+
+
+.image-opacity {
+    opacity: 0.5; 
+    transition: opacity 0.3s ease;
+}
+
+.image-opacity:hover{
+    opacity: 1;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.desc {
+    font-family: inherit;
+}
